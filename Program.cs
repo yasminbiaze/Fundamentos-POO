@@ -33,7 +33,6 @@ internal class Program
         };
 
         Console.WriteLine($"Animal: {gato.Nome}, Idade:{gato.Idade}, Espécie: {gato.Especie}, Cor do Pelo: {gato.CorPelo}");
-
-
+        gato.FazerSom();
     }
 }

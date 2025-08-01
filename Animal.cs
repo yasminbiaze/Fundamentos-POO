@@ -12,5 +12,12 @@ namespace POO_Aula_01
         public int Idade { get; set; }
 
         public string? Especie { get; set; }
+
+        public virtual void FazerSom()
+        {
+            Console.WriteLine($"{Nome} está fazendo som.");
+        }
     }
+
 }
+
