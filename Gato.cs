@@ -18,7 +18,6 @@ namespace POO_Aula_01
             CorPelo = corPelo;
         }
 
-
         public string? Raca { get; set; }
         public string? CorPelo { get; set; }
 
